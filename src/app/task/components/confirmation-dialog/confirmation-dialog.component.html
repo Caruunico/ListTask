@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="question">
+        <h3>You are will delete the {{task.title}}.
+            ¿Are you sure you want to delete it?
+        </h3>
+    </div>
+    <div class="actions">
+        <button mat-flat-button color="accent" class="close-button" (click)="closeDialog()">Cancel</button>
+        <button mat-flat-button color="primary" (click)="deleteTask(task)">Delete</button>
+    </div>
+</div>

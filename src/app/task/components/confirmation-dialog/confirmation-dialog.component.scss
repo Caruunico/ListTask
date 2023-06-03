@@ -1,0 +1,20 @@
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .close-button{
+        margin-right: 5px;
+    }
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .question{
+        padding: 10px;
+    }
+}

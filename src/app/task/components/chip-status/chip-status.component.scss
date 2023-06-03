@@ -1,0 +1,24 @@
+@mixin chip($background-color, $color){
+    width: 100%;
+    min-width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    color: $color;
+    background-color: $background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.NEW{
+    @include chip(rgb(0, 166, 255), white)
+}
+
+.IN-PROGRESS{
+    @include chip(rgb(242 235 186), #515151)
+}
+
+.COMPLETED{
+    @include chip(rgb(128 181 143), white)
+}

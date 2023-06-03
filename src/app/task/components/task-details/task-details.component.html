@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="header">
+        <h3>{{task.title}}</h3>
+        <mat-icon class="icon-close" (click)="closeDialog()">close</mat-icon>
+    </div>
+    <div class="content">
+        <div class="description">
+            <mat-form-field class="text-area">
+                <textarea matInput [(ngModel)]="task.description" [disabled]="edit"></textarea>
+              </mat-form-field>            
+        </div>
+        <div class="plus-data">
+            <app-chip-status [status]="task.status"></app-chip-status>
+            <p>{{task.priority}}</p>
+            <p>{{task.date}}</p>
+        </div>
+    </div>
+    <div class="actions">
+        <button mat-flat-button color="accent" class="edit-button" (click)="edit = !edit; updateDescription(task)">{{edit ? 'Edit' : 'Guardar'}}</button>
+        <button mat-flat-button color="primary" (click)="deleteTask(task)" *ngIf="task.priority !== 'HIGH'">Delete</button>
+    </div>
+</div>
