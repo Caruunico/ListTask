@@ -12,14 +12,14 @@ export class TaskService {
       description: 'Lorem ipsum dolor sit am',
       status: 'COMPLETED',
       priority: 'HIGH',
-      date: '2023-06-03'
+      date: '2023-06-01'
     },
     {
       title: 'TASK 2',
       description: 'Lorem ipsum dolor sit am',
       status: 'IN PROGRESS',
       priority: 'LOW',
-      date: '2023-06-03'
+      date: '2023-06-02'
     },
     {
       title: 'TASK 3',
@@ -33,42 +33,42 @@ export class TaskService {
       description: 'Lorem ipsum dolor sit am',
       status: 'NEW',
       priority: 'LOW',
-      date: '2023-06-03'
+      date: '2023-06-04'
     },
     {
       title: 'TASK 5',
       description: 'Lorem ipsum dolor sit am',
       status: 'COMPLETED',
       priority: 'LOW',
-      date: '2023-06-03'
+      date: '2023-06-05'
     },
     {
       title: 'TASK 6',
       description: 'Lorem ipsum dolor sit am',
       status: 'IN PROGRESS',
       priority: 'LOW',
-      date: '2023-06-03'
+      date: '2023-06-06'
     },
     {
       title: 'TASK 7',
       description: 'Lorem ipsum dolor sit am',
       status: 'COMPLETED',
       priority: 'LOW',
-      date: '2023-06-03'
+      date: '2023-06-07'
     },
     {
       title: 'TASK 7',
       description: 'Lorem ipsum dolor sit am',
       status: 'NEW',
       priority: 'LOW',
-      date: '2023-06-03'
+      date: '2023-06-08'
     },
     {
       title: 'TASK 9',
       description: 'Lorem ipsum dolor sit am',
       status: 'IN PROGRESS',
       priority: 'LOW',
-      date: '2023-06-03'
+      date: '2023-06-09'
     },
   ];
 
